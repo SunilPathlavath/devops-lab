@@ -1,9 +1,12 @@
-public class hello {
+
+public class Factorial {
     public static void main(String[] args) {
-        int a = 25;
-        int b = 25;
-        int c = a+b;
-        System.out.println("result :" + c);
-        System.out.println("Jenkins");
+        int n = 5, fact = 1;
+
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
+        }
+
+        System.out.println("Factorial = " + fact);
     }
 }
